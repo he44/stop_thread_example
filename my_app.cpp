@@ -21,7 +21,7 @@ void MyApp::StopThirdPartyLibrary() { third_party_lib_->Stop(); }
 
 void MyApp::ProcessCommand(const std::string& command) {
   if (command == "help") {
-    std::cout << "Available commands: help, whoami, quit\n";
+    std::cout << "Available commands: help, whoami, start, stop, quit\n";
   } else if (command == "whoami") {
     std::cout << "You are the user\n";
   } else if (command == "start") {
